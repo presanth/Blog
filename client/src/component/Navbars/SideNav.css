@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+.sidenav_main{
+    width: 17%;
+    height: 100vh;
+    background: #030111;
+    border-right: 1px solid rgb(188, 188, 188);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.side_head{
+    font-family: work sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 2rem;
+    color: rgb(17, 180, 255);
+}
+.side_list{
+    width: 100%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+}
+.side_list .item_list{
+    list-style: none;
+    margin-top: 1.3rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #e1e1e1;
+    font-family: work sans;
+}
+.side_list .item_list:nth-child(4){
+    margin-top: auto;
+}
+.item_list i{
+    margin-right: 1rem;
+}
